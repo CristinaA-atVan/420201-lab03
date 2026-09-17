@@ -14,7 +14,7 @@ public class Manager extends Employee{
         return getSalary() * 0.10 + managementAllowance;
     }
 
-    public void giveRaise() {
-        increaseSalary(1000);
+    public void giveRaise(double amount) {
+        increaseSalary(amount);
     }
 }

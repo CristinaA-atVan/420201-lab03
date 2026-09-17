@@ -7,6 +7,10 @@ public class Developer extends Employee{
         this.programmingLanguage = programmingLanguage;
     }
 
+    public String getProgrammingLanguage() {
+        return programmingLanguage;
+    }
+
     @Override
     public double calculateBonus() {
         return getSalary() * 0.08;
