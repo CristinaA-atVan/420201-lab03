@@ -18,3 +18,6 @@ public class Main {
 // As a real life example, Protected would mean the managers can directly increase
 // their own salaries by a massive amount. Private means the raise is fixed for all employees.
 // This also validates no negative values are used.
+
+// 7. A protected method allows data to not be directly viewed as compared to
+// a protected field
