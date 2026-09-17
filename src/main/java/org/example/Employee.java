@@ -6,7 +6,6 @@ public class Employee {
     private double salary;
 
     public Employee(String name, double salary) {
-        System.out.println("Employee constructor");
         this.name = name;
         this.salary = salary;
     }

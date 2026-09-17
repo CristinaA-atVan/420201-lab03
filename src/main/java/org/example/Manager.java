@@ -4,7 +4,6 @@ public class Manager extends Employee{
     private double managementAllowance;
     public Manager(String name, double salary, double managementAllowance) {
         super(name, salary);
-        System.out.println("Manager constructor");
         this.managementAllowance = managementAllowance;
     }
     public double getManagementAllowance() {

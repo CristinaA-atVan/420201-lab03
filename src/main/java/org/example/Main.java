@@ -21,3 +21,12 @@ public class Main {
 
 // 7. A protected method allows data to not be directly viewed as compared to
 // a protected field
+
+// 8. Again, we don't want direct access to the data as that could be exploited
+
+// 9. The 2nd one changes a different employee's salary, while the first one changes
+// the manager's own salary. The 2nd one also doesn't work as the two are in different
+// packages.
+
+// 10. This compiles due to Protected fields needing to be in the same package when not
+// a subclass or superclass
